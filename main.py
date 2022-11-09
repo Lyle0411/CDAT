@@ -33,7 +33,7 @@ from tomcat.get_tomcat_performance import get_performance as tomcat
 from cassandra.get_cassandra_Performance import get_performance as cassandra
 
 SYSTEM = 'Test'# System name (same as file name)
-PATH = 'H:/FSE_2022_ACTDS/ACTDS2/' + SYSTEM + '/' # Project path (absolute path)
+PATH = './ACTDS2/' + SYSTEM + '/' # Project path (absolute path)
 WORKLOAD = '' # add '_'( e.g., '_Sort')
 
 

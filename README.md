@@ -805,16 +805,16 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
             <td rowspan="9" align="center">Spark</td>
             <td rowspan="3">Wordcount</td>
             <td>100</td>
-            <td><strong>48.8%</strong></td>
+            <td>37.1%</td>
             <td>27.7%</td>
             <td>25.6%</td>
             <td>21.4%</td>
             <td>8.5%</td>
-            <td>48.2%</td>
+            <td><strong>48.2%</strong></td>
         </tr>
         <tr>
             <td>200</td>
-            <td>53.6%</td>
+            <td>41.2%</td>
             <td>26.4%</td>
             <td>37.5%</td>
             <td>26.8%</td>
@@ -823,7 +823,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         </tr>
         <tr>
             <td>300</td>
-            <td>55.0%</td>
+            <td>37.9%</td>
             <td>22.0%</td>
             <td>41.3%</td>
             <td>30.6%</td>
@@ -833,7 +833,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         <tr>
             <td rowspan="3">Sort</td>
             <td>100</td>     
-            <td>60.9%</td>
+            <td>54.3%</td>
             <td>34.2%</td>
             <td>55.0%</td>
             <td>49.6%</td>
@@ -842,7 +842,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         </tr>
         <tr>
             <td>200</td>    
-            <td>67.2%</td>
+            <td>60.0%</td>
             <td>46.9%</td>
             <td>61.1%</td>
             <td>63.4%</td>
@@ -851,7 +851,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         </tr>
         <tr>
             <td>300</td>     
-            <td>69.1%</td>
+            <td>63.8%</td>
             <td>45.5%</td>
             <td>69.5%</td>
             <td>30.6%</td>
@@ -861,7 +861,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         <tr>
             <td rowspan="3">Terasort</td>
             <td>100</td> 
-            <td>83.1%</td>
+            <td>65.3%</td>
             <td>60.2%</td>
             <td>82.8%</td>
             <td>87.3%</td>
@@ -870,7 +870,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         </tr>
         <tr>
             <td>200</td>     
-            <td>94.0%</td>
+            <td>88.6%</td>
             <td>67.4%</td>
             <td>102.9%</td>
             <td>81.2%</td>
@@ -879,7 +879,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         </tr>
         <tr>
             <td>300</td>    
-            <td>105.0%</td>
+            <td>94.7%</td>
             <td>72.2%</td>
             <td>98.2%</td>
             <td>92.1%</td>
@@ -890,16 +890,16 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
             <td rowspan="9">Hadoop</td>
             <td rowspan="3">Wordcount</td>
             <td>100</td>     
-            <td><strong>5.6%</strong></td>
+            <td>3.5%</td>
             <td>1.0%</td>
             <td>4.3%</td>
             <td>2.4%</td>
             <td>-0.9%</td>
-            <td>5.0%</td>
+            <td><strong>5.0%</strong></td>
         </tr>
         <tr>
             <td>200</td>     
-            <td>7.5%</td>
+            <td>4.1%</td>
             <td>0.4%</td>
             <td>4.5%</td>
             <td>3.1%</td>
@@ -908,7 +908,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         </tr>
         <tr>
             <td>300</td>     
-            <td>4.0%</td>
+            <td>3.9%</td>
             <td>0.9%</td>
             <td>46.1%</td>
             <td>2.3%</td>
@@ -918,16 +918,16 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         <tr>
             <td rowspan="3">Sort</td>
             <td>100</td>     
-            <td><strong>7.0%</strong></td>
+            <td>5.6%</td>
             <td>5.0%</td>
             <td>5.0%</td>
             <td>2.7%</td>
             <td>0.2%</td>
-            <td>6.7%</td>
+            <td><strong>6.7%</strong></td>
         </tr>
         <tr>     
             <td>200</td>
-            <td>9.9%</td>
+            <td>8.1%</td>
             <td>6.6%</td>
             <td>5.5%</td>
             <td>4.3%</td>
@@ -936,7 +936,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         </tr>
         <tr>     
             <td>300</td>
-            <td>10.8%</td>
+            <td>8.0%</td>
             <td>6.4%</td>
             <td>4.2%</td>
             <td>5.9%</td>
@@ -946,7 +946,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         <tr>
             <td rowspan="3">Terasort</td>
             <td>100</td>     
-            <td>15.0%</td>
+            <td>14.6%</td>
             <td>8.4%</td>
             <td>11.5%</td>
             <td>10.0%</td>
@@ -955,7 +955,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         </tr>
         <tr>
             <td>200</td>   
-            <td>18.0%</td>
+            <td>16.8%</td>
             <td>8.6%</td>
             <td>12.2%</td>
             <td>11.3%</td>
@@ -964,7 +964,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         </tr>
         <tr>
             <td>300</td>     
-            <td>16.9%</td>
+            <td>15.8%</td>
             <td>7.2%</td>
             <td>15.5%</td>
             <td>12.3%</td>
@@ -974,7 +974,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         <tr>
             <td rowspan="3" colspan="2"  align="center">Cassandra</td>
             <td>100</td>     
-            <td>21.2%</td>
+            <td>19.5%</td>
             <td>19.7%</td>
             <td><strong>23.2%</strong></td>
             <td>20.4%</td>
@@ -983,7 +983,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         </tr>
         <tr>     
             <td>200</td>
-            <td>21.7%</td>
+            <td>20.6%</td>
             <td>23.4%</td>
             <td>23.1%</td>
             <td>20.8%</td>
@@ -992,7 +992,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         </tr>
         <tr>     
             <td>300</td>
-            <td>23.0%</td>
+            <td>19.7%</td>
             <td>22.3%</td>
             <td>24.3%</td>
             <td>23.0%</td>
@@ -1002,7 +1002,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         <tr>
             <td rowspan="3" colspan="2"  align="center">Redis</td>
             <td>100</td>     
-            <td>35.4%</td>
+            <td>22.8%</td>
             <td>9.1%</td>
             <td>23.0%</td>
             <td>22.3%</td>
@@ -1011,7 +1011,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         </tr>
         <tr>
             <td>200</td>     
-            <td>34.2%</td>
+            <td>19.5%</td>
             <td>9.6%</td>
             <td>22.2%</td>
             <td>30.2%</td>
@@ -1020,7 +1020,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         </tr>
         <tr>
             <td>300</td>     
-            <td>42.8%</td>
+            <td>27.8%</td>
             <td>19.0%</td>
             <td>33.6%</td>
             <td>29.4%</td>
@@ -1030,7 +1030,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         <tr>
             <td rowspan="3" colspan="2"  align="center">SQLite</td>
             <td>100</td>     
-            <td>16.4%</td>
+            <td>12.0%</td>
             <td>6.6%</td>
             <td>13.9%</td>
             <td>14.7%</td>
@@ -1039,7 +1039,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         </tr>
         <tr>
             <td>200</td>     
-            <td>21.7%</td>
+            <td>14.3%</td>
             <td>15.9%</td>
             <td>16.0%</td>
             <td>12.9%</td>
@@ -1048,7 +1048,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         </tr>
         <tr>
             <td>300</td>     
-            <td>26.2%</td>
+            <td>14.2%</td>
             <td>13.7%</td>
             <td>17.0%</td>
             <td>17.3%</td>
@@ -1058,7 +1058,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         <tr>
             <td rowspan="3" colspan="2"  align="center">Tomcat</td>
             <td>100</td>     
-            <td>26.6%</td>
+            <td>19.7%</td>
             <td>36.6%</td>
             <td>18.3%</td>
             <td>46.2%</td>
@@ -1067,7 +1067,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         </tr>
         <tr>     
             <td>200</td>
-            <td>35.0%</td>
+            <td>24.5%</td>
             <td>26.8%</td>
             <td>50.4%</td>
             <td>40.7%</td>
@@ -1076,7 +1076,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         </tr>
         <tr>
             <td>300</td>     
-            <td>55.7%</td>
+            <td>44.4%</td>
             <td>42.4%</td>
             <td>39.9%</td>
             <td>56.5%</td>
@@ -1086,7 +1086,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         <tr>
             <td rowspan="3" colspan="2"  align="center">x264</td>
             <td>100</td>     
-            <td>86.0%</td>
+            <td>38.9%</td>
             <td>55.7%</td>
             <td>82.1%</td>
             <td>78.0%</td>
@@ -1095,7 +1095,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         </tr>
         <tr>     
             <td>200</td>
-            <td>87.9%</td>
+            <td>70.3%</td>
             <td>76.7%</td>
             <td>86.6%</td>
             <td>80.9%</td>
@@ -1104,7 +1104,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         </tr>
         <tr>
             <td>300</td>     
-            <td>87.7%</td>
+            <td>79.6%</td>
             <td>76.6%</td>
             <td>76.4%</td>
             <td>83.9%</td>
@@ -1114,7 +1114,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         <tr>
             <td rowspan="3" colspan="2"  align="center">Apache</td>
             <td>100</td>     
-            <td>49.4%</td>
+            <td>37.6%</td>
             <td>33.6%</td>
             <td>48.3%</td>
             <td>48.5%</td>
@@ -1123,7 +1123,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         </tr>
         <tr>     
             <td>200</td>
-            <td>55.3%</td>
+            <td>37.8%</td>
             <td>44.0%</td>
             <td>47.0%</td>
             <td><strong>57.0%</strong></td>
@@ -1132,7 +1132,7 @@ In the table below, we use three different measurement constraints (i.e., 100, 2
         </tr>
         <tr>
             <td>300</td>     
-            <td>57.0%</td>
+            <td>47.2%</td>
             <td>33.8%</td>
             <td>49.7%</td>
             <td>50.7%</td>
