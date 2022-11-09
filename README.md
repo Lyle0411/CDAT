@@ -1,7 +1,7 @@
 # CDAT (Configuration Distribution-Aware Tuning)
 Many modern software systems provide numerous configuration options that users can adjust for specific running environments. However, it is always an undue burden on users to configure such a system because of the complex impact of the configuration on the system performance and the lack of understanding of the system. To address this issue, various tuning approaches have been proposed to automatically find the optimal configuration by directly using some search strategies or learning a surrogate model. The essential difference among these methods is the way to exploit and explore the underlying distribution of configuration space. The key idea of CDAT is to **automatically capture the structure of the optimal configurations to construct the distribution and determine the optimal configuration based on such a distribution**.  Specifically, CDAT consists of three main steps:
 - Step 1: Construct a structure model to convert the configuration to its corresponding structure feature.
-- Step 2: Learn a comparison-based model to build the distribution of performance.
+- Step 2: Learn a comparison-based model to construct the distribution of performance.
 - Step 3: Generate the potentially promising configurations based on the distribution from Step 2.
 
 # Prerequisites
